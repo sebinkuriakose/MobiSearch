@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>contact us</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+ 
+ <div class="header">
+     <div class="header_container">
+         <div class="logo">
+         	<a href="home.html"><img src="thumb.png" height="100" width="250"></a>
+         </div>
+         <div class="menu">
+         	<ul>
+         		<li>
+         			<a href="home.html">Home</a>
+         		</li>
+         		<li>
+         			<a href="products.html">Products</a>
+         		</li>
+         		<li>
+         			<a href="contact.html">Contact Us</a>
+         		</li>
+         	</ul>
+         <div class="login">
+               <form>
+                  <input type="button" value="login" onclick="loginPopup()">
+               </form>
+            </div>
+            </div>
+         </div>
+     	
+     </div>
+ </div>
+ <div class="container">
+ 	<div class="main">
+ 		
+        <div class="contactus">
+           <p id="head">
+               MobiSearch
+           </p>
+           <p id="body">
+               QBust<br>
+               Leela, Keshavdasapuram<br>
+               Trivandrum
+           </p>
+           <p id="mob">
+               Mob: 0912364532
+           </p>
+           <hr>
+        </div>
+        <div class="form">
+            <p>
+                Customer Enquiry
+            </p>
+            <form name="myForm">
+                Name:<br><input type="text" name="f_name"placeholder="First" required> <input type="text" name="l_name" placeholder="Last">
+                <br><br>
+                Email:<br><input type="email" name="email" placeholder="Email Address" required><br><br>
+                Mob:<br><input type="text" name="mob" placeholder="Mobile Number" required><br><br>
+                <input type="radio" name="sex" value="male" required>Male <input type="radio" name="sex" value="female" required>Female<br><br>
+                DOB:<br>
+                <select id="day" required>
+                  <option value="">Day</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                </select>
+                <select id="month" required>
+                  <option value=''>Month</option>
+                  <option selected value='1'>Janaury</option>
+                  <option value='2'>February</option>
+                  <option value='3'>March</option>
+                  <option value='4'>April</option>
+                  <option value='5'>May</option>
+                  <option value='6'>June</option>
+                  <option value='7'>July</option>
+                  <option value='8'>August</option>
+                  <option value='9'>September</option>
+                  <option value='10'>October</option>
+                  <option value='11'>November</option>
+                  <option value='12'>December</option>
+                </select>
+                <select id="year" required>
+                  <option id="">Year</option>
+                  <option id="1990">1990</option>
+                  <option id="1991">1991</option>
+                  <option id="1992">1992</option>
+                  <option id="1993">1993</option>
+                  <option id="1994">1994</option>
+                  <option id="1995">1995</option>
+                  <option id="1996">1996</option>
+                  <option id="1997">1997</option>
+                  <option id="1998">1998</option>
+                  <option id="1999">1999</option>
+                  <option id="2000">2000</option>
+                  <option id="2001">2001</option>
+                  <option id="2002">2002</option>
+                </select><br><br>
+                Languages:<br>
+                <input type="checkbox" name="lang" value="malayalam">Malayalam
+                <input type="checkbox" name="lang" value="english">English
+                <input type="checkbox" name="lang" value="hindi">Hindi<br><br>
+                Comments:<br>
+                <textarea rows="5" cols="50" required>
+                
+                </textarea><br><br>
+                <input type="submit" value="Submit" onclick= "return validateForm();" method="post">
+            </form><br>
+        </div><br>
+        <div class="footer">
+        Copyright &copy; MobiSearch, All rights reserved.
+        </div>
+ 	</div>
+
+ </div>
+ 
+ <div id="popup">
+            <form id="loginForm">
+                Username:<br><input type="text" id="username" placeholder='username' required><br><br>
+                Password:<br><input type="password" id="password" placeholder='password' required>
+                <br><br>
+                <input type="submit" id="login" value="Login" onclick="loginAction(event);">
+                <input type="button" id="closeButton" value="X" onclick="closePopup()">
+            </form>
+        </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"> </script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

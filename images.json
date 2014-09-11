@@ -1,0 +1,25 @@
+[
+	{
+	"url" : "images/1.jpeg",
+	"title" : "Nokia 3310",
+	"disc" : "The Nokia 3310 is a GSM mobile phone announced on September 1, 2000, and released in the fourth quarter of the year, replacing the popular Nokia 3210. The phone sold extremely well, being one of the most successful phones with 126 million units sold worldwide. The phone has since received arguably the biggest cult status of a mobile cell phone, and is still widely acclaimed today."
+	},
+	
+	{
+	"url" : "images/2.jpg",
+	"title" : "Samsung Galaxy",
+	"disc" : "Samsung Galaxy (stylized as Samsung GALAXY) is a series of Android-powered mobile computing devices designed, manufactured and marketed by Samsung Electronics. The product line includes the Galaxy S series of high-end smartphones, the Galaxy Tab series of tablets, the Galaxy Note series of tablets and phablets with the added functionality of a stylus and the first version of the Galaxy Gear Smartwatch, with later versions dropping the Galaxy branding."
+	},
+	
+	{
+		"url" : "images/3.jpg",
+		"title" : "HTC",
+		"disc" : "HTC Corporation (Chinese: 宏達國際電子股份有限公司; pinyin: Hóngdá Guójì Diànzǐ Gǔfèn Yǒuxiàn Gōngsī), formerly High-Tech Computer Corporation,[3] is a Taiwanese manufacturer of smartphones and tablets headquartered in New Taipei City, Taiwan. Founded in 1997, HTC began as an original design manufacturer and original equipment manufacturer, designing and manufacturing devices such as mobile phones, touchscreen phones, and PDAs based on Windows Mobile OS and Brew MP to market to mobile network operators who were willing to pay a contract manufacturer for customized products.[4][5] After initially making smartphones based mostly on Windows Mobile, HTC expanded its focus in 2009 to devices based on the Android, and in 2010 to Windows Phone."
+	},
+	
+	{
+		"url" : "images/4.jpg",
+		"title" : "Blackberry Z10",
+		"disc" : "The BlackBerry Z10 (pronounced zed ten in Canada, zee ten in the USA) is a high-end 4G touchscreen-based smartphone developed by BlackBerry, previously known as RIM.[3] The BlackBerry Z10 is the first of two new BlackBerry phones presented at the BlackBerry 10 event on January 30, 2013.[4] The BlackBerry Z10 was followed by the Z30."
+	}
+]

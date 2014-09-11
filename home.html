@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Page-Enter" content="revealTrans(Duration=5.0,Transition=2)">
+ <title>home</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+ 
+ <div class="header">
+     <div class="header_container">
+         <div class="logo">
+         	<a href="home.html"><img src="thumb.png" height="100" width="250"></a>
+         </div>
+         <div class="menu">
+         	<ul>
+         		<li>
+         			<a href="home.html" >Home</a>
+         		</li>
+         		<li>
+         			<a href="products.html" >Products</a>
+         		</li>
+         		<li>
+         			<a href="contact.html" >Contact Us</a>
+         		</li>
+         	</ul>
+         	<div class="login">
+               <form>
+               		<input type="button" value="login" onclick="loginPopup()">
+               </form>
+            </div>
+         </div>
+     </div>
+ </div>
+ <div class="container">
+ 	<div class="main" id="hom">
+ 		<div class="left"><br><br><br><p>
+ 			This site gives information about latest mobile phone products..</p>
+ 		</div>
+ 	</div>
+ </div>
+ <div class="footer">
+ 		Copyright &copy; MobiSearch, All rights reserved.
+ </div>
+
+ 
+    	<div id="popup">
+            <form id="loginForm">
+               	Username:<br><input type="text" id="username" placeholder='username' required><br><br>
+               	Password:<br><input type="password" id="password" placeholder='password' required>
+               	<br><br>
+               	<input type="submit" id="login" value="Login" onclick="loginAction(event);">
+               	<input type="button" id="closeButton" value="X" onclick="closePopup()">
+            </form>
+        </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"> </script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
